@@ -38,34 +38,34 @@ Each layer has a single responsibility and is isolated for maintainability and t
 ---
 
 ## 📂 Project Structure
+
 validator_fields/
-│
-├── src/
-│ ├── cleaning/
-│ │ ├── sherpa_cleaner.py # Marketplace normalization
-│ │ ├── crm_cleaner.py # CRM normalization
-│ │ └── common.py # Shared transformations
-│ │
-│ ├── compare/
-│ │ ├── matcher.py # Record matching logic
-│ │ ├── diff_engine.py # Field-level difference detection
-│ │ └── rules.py # Business inconsistency rules
-│ │
-│ ├── models.py # Canonical shared data model
-│ │
-│ └── pipeline.py # Orchestration layer
-│
-├── data/
-│ ├── raw/
-│ │ ├── sherpa.csv
-│ │ └── crm.csv
-│ └── output/
-│ └── inconsistencies.xlsx
-│
-├── tests/
-│
-├── requirements.txt
-└── README.md
+
+├── src/  
+│   ├── cleaning/  
+│   │   ├── sherpa_cleaner.py  
+│   │   ├── crm_cleaner.py  
+│   │   └── common.py  
+│   │  
+│   ├── compare/  
+│   │   ├── matcher.py  
+│   │   ├── diff_engine.py  
+│   │   └── rules.py  
+│   │  
+│   ├── models.py  
+│   └── pipeline.py  
+│  
+├── data/  
+│   ├── raw/  
+│   │   ├── sherpa.csv  
+│   │   └── crm.csv  
+│   │  
+│   └── output/  
+│       └── inconsistencies.xlsx  
+│  
+├── tests/  
+├── requirements.txt  
+└── README.md  
 
 
 ---
