@@ -1,0 +1,24 @@
+CSV column
+
+hs_member_identifier
+ffm_subscriber_id
+plan_hios_id
+plan_name
+issuer
+policy_status
+effective_date
+expiration_date
+paid_through_date
+gross_premium
+health_premium
+subsidy
+net_premium
+street_address
+city
+state
+zip_code
+phone
+email
+household_size
+followup_docs
+preferred_language
