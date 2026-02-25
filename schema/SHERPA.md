@@ -1,5 +1,8 @@
 CSV column
 
+first_name
+last_name
+gender
 hs_member_identifier
 ffm_subscriber_id
 plan_hios_id

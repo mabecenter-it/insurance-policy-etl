@@ -1,4 +1,7 @@
 SQL (alias)	                                CSV column
+first_name(cf_2293)                         first_name
+last_name(cf_2297)                          last_name
+gender(cf_2303)                             gender
 member_id (cf_2119)	                        hs_member_identifier
 mp_id (cf_2115)	                            ffm_subscriber_id
 plan_id (cf_2035)	                        plan_hios_id
