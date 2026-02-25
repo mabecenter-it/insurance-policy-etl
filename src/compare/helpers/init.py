@@ -18,7 +18,6 @@ CRITICAL_FIELDS = [
 
 BASE_DIR = Path(__file__).resolve().parents[3]
 
-
 # =========================
 # UTILIDADES
 # =========================
@@ -32,7 +31,6 @@ def standardize_columns(df):
         .str.replace(" ", "_")
     )
     return df
-
 
 def normalize_data(df):
     df = df.copy()
@@ -50,7 +48,6 @@ def normalize_data(df):
                 .replace("", np.nan)
                 .astype(float)
             )
-
     return df
 
 
@@ -158,8 +155,6 @@ def generate_summary(new_records, missing_records, changes):
         print(changes["changed_field"].value_counts())
 
     print("===========================================\n")
-
-
 # =========================
 # MAIN
 # =========================
